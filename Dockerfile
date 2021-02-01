@@ -1,7 +1,7 @@
 # This Dockerfile is used for a youtube tutorial
 # base image - nginxwith tag "latest-image"
 FROM nginx:latest
-
+MAINTAINER vijay@dockerhub
 # Adding custom index.html hosted on Github Gist
 ADD https://gist.githubusercontent.com/ProProgrammer/72a87394affb0a70f54af6e6353e3c45/raw/37fcecc6d43dba55effa9e1fa6f7183f349b9ba0/index.html /usr/share/nginx/html/
 
