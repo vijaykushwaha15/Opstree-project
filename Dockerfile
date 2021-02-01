@@ -1,5 +1,5 @@
 # This Dockerfile is used for a youtube tutorial
-# base image - nginx with tag "latest"
+# base image - nginxwith tag "latest"
 FROM nginx:latest
 
 # Adding custom index.html hosted on Github Gist
